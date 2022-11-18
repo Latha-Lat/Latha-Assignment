@@ -1,0 +1,54 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+  //Assignment operators
+
+  int x = 5;
+	cout << "Initial value of x is " << x << "\n";
+
+	x += 5;
+	cout << "x += 5 gives :" << x << "\n";
+
+	x -= 5;
+	cout << "x -= 5 gives : " << x << "\n";
+
+	x *= 5;
+	cout << "x *= 5 gives :" << x << "\n";
+
+	x /= 5;
+	cout << "x /= 5 gives : " << x << "\n";
+
+ //Comparison operators
+  
+  int a=11;
+  int b=9;
+  cout<<(a==b)<<endl;
+  cout<<(a!=b)<<endl;
+  cout<<(a>b)<<endl;
+  cout<<(a<b)<<endl;
+  cout<<(a<=b)<<endl;
+  cout<<(a>=b)<<endl;
+
+  
+//Logical operators
+int a = 5, b = 2, c = 6, d = 4;
+	if (a == b && c > d)
+		cout << "a equals to b AND c is greater than d\n";
+	else
+		cout << "AND operation returned false\n";
+
+	if (a == b || c > d)
+		cout << "a equals to b OR c is greater than d\n";
+	else
+		cout << "Neither a is equal to b nor c is greater than d\n";
+
+	if (!b)
+		cout << "b is zero\n";
+	else
+		cout << "b is not zero";  
+  
+return 0;
+  
+}
